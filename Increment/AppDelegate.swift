@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  Increment
-//
-//  Created by Everis on 23/09/2020.
-//  Copyright © 2020 Alan. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
