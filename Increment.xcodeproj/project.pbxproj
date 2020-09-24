@@ -18,6 +18,8 @@
 		5112A104251BCC9B00CA355F /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5112A103251BCC9B00CA355F /* Color+Extension.swift */; };
 		5112A107251BCED100CA355F /* CommonsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5112A106251BCED100CA355F /* CommonsConstants.swift */; };
 		511B1368251C83BE005EFCB3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 511B136A251C83BE005EFCB3 /* Localizable.strings */; };
+		5138784E251C8E020026CD1B /* CreateNewExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5138784D251C8E020026CD1B /* CreateNewExerciseView.swift */; };
+		51387852251C90BC0026CD1B /* DropDownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51387851251C90BC0026CD1B /* DropDownButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		511B1364251C8264005EFCB3 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		511B1369251C83BE005EFCB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		511B136B251C83C3005EFCB3 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5138784D251C8E020026CD1B /* CreateNewExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewExerciseView.swift; sourceTree = "<group>"; };
+		51387851251C90BC0026CD1B /* DropDownButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +78,7 @@
 				5112A0F2251BC44D00CA355F /* LaunchScreen.storyboard */,
 				5112A0F5251BC44D00CA355F /* Info.plist */,
 				5112A0FE251BCABF00CA355F /* Commons */,
-				5112A0FD251BCAB100CA355F /* Landing */,
+				5138784A251C8DD40026CD1B /* Views */,
 				5112A0EF251BC44D00CA355F /* Preview Content */,
 				511B136A251C83BE005EFCB3 /* Localizable.strings */,
 			);
@@ -103,6 +107,7 @@
 				5112A105251BCEA800CA355F /* Constants */,
 				5112A102251BCC8D00CA355F /* Extensions */,
 				5112A100251BCB0700CA355F /* PrimaryButtonStyle.swift */,
+				51387851251C90BC0026CD1B /* DropDownButton.swift */,
 			);
 			path = Commons;
 			sourceTree = "<group>";
@@ -130,6 +135,23 @@
 				5112A106251BCED100CA355F /* CommonsConstants.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		5138784A251C8DD40026CD1B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5138784C251C8DE10026CD1B /* CreateNewExercise */,
+				5112A0FD251BCAB100CA355F /* Landing */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5138784C251C8DE10026CD1B /* CreateNewExercise */ = {
+			isa = PBXGroup;
+			children = (
+				5138784D251C8E020026CD1B /* CreateNewExerciseView.swift */,
+			);
+			path = CreateNewExercise;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51387852251C90BC0026CD1B /* DropDownButton.swift in Sources */,
 				5112A0E8251BC44C00CA355F /* AppDelegate.swift in Sources */,
 				5112A101251BCB0700CA355F /* PrimaryButtonStyle.swift in Sources */,
 				5112A107251BCED100CA355F /* CommonsConstants.swift in Sources */,
@@ -212,6 +235,7 @@
 				5112A0EC251BC44C00CA355F /* LandingView.swift in Sources */,
 				5112A0FC251BC6FD00CA355F /* LandingConstants.swift in Sources */,
 				5112A104251BCC9B00CA355F /* Color+Extension.swift in Sources */,
+				5138784E251C8E020026CD1B /* CreateNewExerciseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

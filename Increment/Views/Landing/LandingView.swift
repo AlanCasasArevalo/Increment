@@ -17,7 +17,7 @@ struct LandingView: View {
                         .shadow(color: Color(.black), radius: 1, x: 2, y: 2)
                     Spacer()
                     
-                    NavigationLink(destination: Text("navigated"), isActive: self.$isActive) {
+                    NavigationLink(destination: CreateNewExerciseView(), isActive: self.$isActive) {
                         Button(action: {
                             self.isActive = true
                         }) {
@@ -52,8 +52,8 @@ struct LandingView: View {
 
 struct Landing_Previews: PreviewProvider {
     static var previews: some View {
-        //        LandingView().previewDevice("iPhone 8")
-        //        LandingView().previewDevice("iPhone 11")
+//        LandingView().previewDevice("iPhone SE")
+//        LandingView().previewDevice("iPhone 8")
         LandingView().previewDevice("iPhone 11 Pro Max")
     }
 }
