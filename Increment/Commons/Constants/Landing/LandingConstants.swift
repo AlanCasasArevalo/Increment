@@ -8,4 +8,6 @@ struct LandingConstants {
     static let percentTitle: CGFloat = 0.15
     static let landingImageSystemButtonName = "plus.circle.fill"
     static let landingButtonCreateNewIncreaseTitleText = NSLocalizedString("landing_button_create_new_increase_text", comment: "Landing create new challenge button text")
+    static let landingImageSystemButtonNameSize: CGFloat = 24
+
 }

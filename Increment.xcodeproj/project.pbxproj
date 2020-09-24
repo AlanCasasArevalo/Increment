@@ -21,6 +21,9 @@
 		5138784E251C8E020026CD1B /* CreateNewExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5138784D251C8E020026CD1B /* CreateNewExerciseView.swift */; };
 		51387852251C90BC0026CD1B /* DropDownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51387851251C90BC0026CD1B /* DropDownButton.swift */; };
 		51387855251C96670026CD1B /* DropDownButtonConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51387854251C96670026CD1B /* DropDownButtonConstants.swift */; };
+		51387859251C9A140026CD1B /* RemindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51387858251C9A140026CD1B /* RemindView.swift */; };
+		5138785E251C9A900026CD1B /* CreateNewExerciseConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5138785D251C9A900026CD1B /* CreateNewExerciseConstants.swift */; };
+		51387863251C9CB50026CD1B /* RemindConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51387862251C9CB50026CD1B /* RemindConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		5138784D251C8E020026CD1B /* CreateNewExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewExerciseView.swift; sourceTree = "<group>"; };
 		51387851251C90BC0026CD1B /* DropDownButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownButton.swift; sourceTree = "<group>"; };
 		51387854251C96670026CD1B /* DropDownButtonConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownButtonConstants.swift; sourceTree = "<group>"; };
+		51387858251C9A140026CD1B /* RemindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindView.swift; sourceTree = "<group>"; };
+		5138785D251C9A900026CD1B /* CreateNewExerciseConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewExerciseConstants.swift; sourceTree = "<group>"; };
+		51387862251C9CB50026CD1B /* RemindConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +139,8 @@
 		5112A105251BCEA800CA355F /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				51387861251C9CA50026CD1B /* Remind */,
+				5138785C251C9A800026CD1B /* CreateNewExercise */,
 				5112A0FF251BCACE00CA355F /* Landing */,
 				5112A106251BCED100CA355F /* CommonsConstants.swift */,
 				51387854251C96670026CD1B /* DropDownButtonConstants.swift */,
@@ -143,6 +151,7 @@
 		5138784A251C8DD40026CD1B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				51387857251C9A090026CD1B /* Remind */,
 				5138784C251C8DE10026CD1B /* CreateNewExercise */,
 				5112A0FD251BCAB100CA355F /* Landing */,
 			);
@@ -155,6 +164,30 @@
 				5138784D251C8E020026CD1B /* CreateNewExerciseView.swift */,
 			);
 			path = CreateNewExercise;
+			sourceTree = "<group>";
+		};
+		51387857251C9A090026CD1B /* Remind */ = {
+			isa = PBXGroup;
+			children = (
+				51387858251C9A140026CD1B /* RemindView.swift */,
+			);
+			path = Remind;
+			sourceTree = "<group>";
+		};
+		5138785C251C9A800026CD1B /* CreateNewExercise */ = {
+			isa = PBXGroup;
+			children = (
+				5138785D251C9A900026CD1B /* CreateNewExerciseConstants.swift */,
+			);
+			path = CreateNewExercise;
+			sourceTree = "<group>";
+		};
+		51387861251C9CA50026CD1B /* Remind */ = {
+			isa = PBXGroup;
+			children = (
+				51387862251C9CB50026CD1B /* RemindConstants.swift */,
+			);
+			path = Remind;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +263,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5138785E251C9A900026CD1B /* CreateNewExerciseConstants.swift in Sources */,
 				51387852251C90BC0026CD1B /* DropDownButton.swift in Sources */,
 				5112A0E8251BC44C00CA355F /* AppDelegate.swift in Sources */,
+				51387859251C9A140026CD1B /* RemindView.swift in Sources */,
+				51387863251C9CB50026CD1B /* RemindConstants.swift in Sources */,
 				5112A101251BCB0700CA355F /* PrimaryButtonStyle.swift in Sources */,
 				5112A107251BCED100CA355F /* CommonsConstants.swift in Sources */,
 				5112A0EA251BC44C00CA355F /* SceneDelegate.swift in Sources */,

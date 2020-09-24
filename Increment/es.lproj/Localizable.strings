@@ -2,4 +2,8 @@
 */
 "landing_title_text" = "Aumento";
 "landing_button_create_new_increase_text" = "Crea un nuevo reto";
-
+"create_new_exercise_button_title" = "Siguiente";
+"create_new_exercise_navigation_bar_title" = "Crea";
+"remind_navigation_bar_title" = "Recordar";
+"create_text_button" = "Crear";
+"skip_text_button" = "Saltar";

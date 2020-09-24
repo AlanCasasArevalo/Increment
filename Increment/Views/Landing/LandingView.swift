@@ -24,15 +24,15 @@ struct LandingView: View {
                             HStack(spacing: 15) {
                                 Spacer()
                                 Image(systemName: LandingConstants.landingImageSystemButtonName)
-                                    .font(.system (size: 24, weight: .semibold))
+                                    .font(.system (size: LandingConstants.landingImageSystemButtonNameSize, weight: .semibold))
                                     .foregroundColor(Color(.white))
                                 Text(LandingConstants.landingButtonCreateNewIncreaseTitleText)
-                                    .font(.system (size: 24))
+                                    .font(.system (size: LandingConstants.landingImageSystemButtonNameSize))
                                     .foregroundColor(Color(.white))
                                 Spacer()
                             }
                         }
-                        .padding(.horizontal, 20)
+                        .padding(CommonsConstants.paddingBottomViews)
                         .buttonStyle(PrimaryButtonStyle())
                     }
                 }

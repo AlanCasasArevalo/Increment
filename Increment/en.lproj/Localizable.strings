@@ -2,3 +2,8 @@
 */
 "landing_title_text" = "Increment";
 "landing_button_create_new_increase_text" = "Create a challenge";
+"create_new_exercise_button_title" = "Next";
+"create_new_exercise_navigation_bar_title" = "Create";
+"remind_navigation_bar_title" = "Remind";
+"create_text_button" = "Create";
+"skip_text_button" = "Skip";
