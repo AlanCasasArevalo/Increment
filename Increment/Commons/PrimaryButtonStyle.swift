@@ -28,7 +28,7 @@ struct PrimaryButtonStyle_Previews: PreviewProvider {
         Button(action: {
             
         }) {
-            Text(CommonsConstants.buttonText)
+            Text("Exercise")
         }
         .buttonStyle(PrimaryButtonStyle())
     }

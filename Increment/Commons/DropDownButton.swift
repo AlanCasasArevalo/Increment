@@ -5,22 +5,22 @@ struct DropDownButton: View {
     var body: some View {
         VStack {
             HStack {
-                Text("Exercise")
-                    .font(.system(size: 22, weight: .semibold, design: .rounded))
+                Text(DropDownButtonConstants.titleView)
+                    .font(.system(size: DropDownButtonConstants.titleViewFontSize, weight: .semibold, design: .rounded))
                 Spacer()
             }
             .padding(.vertical, 16)
             Button(action: {}) {
                 HStack{
-                    Text("Pushups")
-                        .font(.system(size: 28, weight: .semibold, design: .rounded))
+                    Text(DropDownButtonConstants.titleButton)
+                        .font(.system(size: DropDownButtonConstants.titleButtonFontSize, weight: .semibold, design: .rounded))
                     Spacer()
-                    Image(systemName: "arrowtriangle.down.circle")
-                        .font(.system(size: 24, weight: .medium))
+                    Image(systemName: DropDownButtonConstants.imageSystemName)
+                        .font(.system(size: DropDownButtonConstants.imageSystemFontSize, weight: .medium))
                 }
             }
-            .buttonStyle(PrimaryButtonStyle())
-        }
+            .buttonStyle(PrimaryButtonStyle(fillColor: .primaryButton))
+        }.padding(20)
     }
 }
 

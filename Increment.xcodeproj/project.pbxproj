@@ -20,6 +20,7 @@
 		511B1368251C83BE005EFCB3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 511B136A251C83BE005EFCB3 /* Localizable.strings */; };
 		5138784E251C8E020026CD1B /* CreateNewExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5138784D251C8E020026CD1B /* CreateNewExerciseView.swift */; };
 		51387852251C90BC0026CD1B /* DropDownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51387851251C90BC0026CD1B /* DropDownButton.swift */; };
+		51387855251C96670026CD1B /* DropDownButtonConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51387854251C96670026CD1B /* DropDownButtonConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		511B136B251C83C3005EFCB3 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5138784D251C8E020026CD1B /* CreateNewExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewExerciseView.swift; sourceTree = "<group>"; };
 		51387851251C90BC0026CD1B /* DropDownButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownButton.swift; sourceTree = "<group>"; };
+		51387854251C96670026CD1B /* DropDownButtonConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownButtonConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 			children = (
 				5112A0FF251BCACE00CA355F /* Landing */,
 				5112A106251BCED100CA355F /* CommonsConstants.swift */,
+				51387854251C96670026CD1B /* DropDownButtonConstants.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				5112A0EC251BC44C00CA355F /* LandingView.swift in Sources */,
 				5112A0FC251BC6FD00CA355F /* LandingConstants.swift in Sources */,
 				5112A104251BCC9B00CA355F /* Color+Extension.swift in Sources */,
+				51387855251C96670026CD1B /* DropDownButtonConstants.swift in Sources */,
 				5138784E251C8E020026CD1B /* CreateNewExerciseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
