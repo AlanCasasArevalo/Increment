@@ -7,7 +7,7 @@ struct RemindView: View {
         NavigationView {
             VStack {
                 Spacer()
-                DropDownButton()
+//                DropDownButton()
                 Spacer()
                 Button(action: {
                     

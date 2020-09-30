@@ -17,23 +17,27 @@ struct LandingView: View {
                         .shadow(color: Color(.black), radius: 1, x: 2, y: 2)
                     Spacer()
                     
-                    NavigationLink(destination: CreateNewExerciseView(), isActive: self.$isActive) {
-                        Button(action: {
-                            self.isActive = true
-                        }) {
-                            HStack(spacing: 15) {
-                                Spacer()
-                                Image(systemName: LandingConstants.landingImageSystemButtonName)
-                                    .font(.system (size: LandingConstants.landingImageSystemButtonNameSize, weight: .semibold))
-                                    .foregroundColor(Color(.white))
-                                Text(LandingConstants.landingButtonCreateNewIncreaseTitleText)
-                                    .font(.system (size: LandingConstants.landingImageSystemButtonNameSize))
-                                    .foregroundColor(Color(.white))
-                                Spacer()
+                    if #available(iOS 14.0, *) {
+                        NavigationLink(destination: CreateNewExerciseView(), isActive: self.$isActive) {
+                            Button(action: {
+                                self.isActive = true
+                            }) {
+                                HStack(spacing: 15) {
+                                    Spacer()
+                                    Image(systemName: LandingConstants.landingImageSystemButtonName)
+                                        .font(.system (size: LandingConstants.landingImageSystemButtonNameSize, weight: .semibold))
+                                        .foregroundColor(Color(.white))
+                                    Text(LandingConstants.landingButtonCreateNewIncreaseTitleText)
+                                        .font(.system (size: LandingConstants.landingImageSystemButtonNameSize))
+                                        .foregroundColor(Color(.white))
+                                    Spacer()
+                                }
                             }
+                            .padding(CommonsConstants.paddingBottomViews)
+                            .buttonStyle(PrimaryButtonStyle())
                         }
-                        .padding(CommonsConstants.paddingBottomViews)
-                        .buttonStyle(PrimaryButtonStyle())
+                    } else {
+                        // Fallback on earlier versions
                     }
                 }
                 .frame(maxWidth: .infinity, maxHeight: .infinity)

@@ -18,6 +18,8 @@
 		5112A104251BCC9B00CA355F /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5112A103251BCC9B00CA355F /* Color+Extension.swift */; };
 		5112A107251BCED100CA355F /* CommonsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5112A106251BCED100CA355F /* CommonsConstants.swift */; };
 		511B1368251C83BE005EFCB3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 511B136A251C83BE005EFCB3 /* Localizable.strings */; };
+		51227A362523017B006AFE9A /* CreateNewExerciseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51227A352523017B006AFE9A /* CreateNewExerciseViewModel.swift */; };
+		51227A3925230229006AFE9A /* DropDownButtonProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51227A3825230229006AFE9A /* DropDownButtonProtocol.swift */; };
 		5138784E251C8E020026CD1B /* CreateNewExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5138784D251C8E020026CD1B /* CreateNewExerciseView.swift */; };
 		51387852251C90BC0026CD1B /* DropDownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51387851251C90BC0026CD1B /* DropDownButton.swift */; };
 		51387855251C96670026CD1B /* DropDownButtonConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51387854251C96670026CD1B /* DropDownButtonConstants.swift */; };
@@ -42,6 +44,8 @@
 		511B1364251C8264005EFCB3 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		511B1369251C83BE005EFCB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		511B136B251C83C3005EFCB3 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		51227A352523017B006AFE9A /* CreateNewExerciseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewExerciseViewModel.swift; sourceTree = "<group>"; };
+		51227A3825230229006AFE9A /* DropDownButtonProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownButtonProtocol.swift; sourceTree = "<group>"; };
 		5138784D251C8E020026CD1B /* CreateNewExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewExerciseView.swift; sourceTree = "<group>"; };
 		51387851251C90BC0026CD1B /* DropDownButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownButton.swift; sourceTree = "<group>"; };
 		51387854251C96670026CD1B /* DropDownButtonConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownButtonConstants.swift; sourceTree = "<group>"; };
@@ -80,6 +84,7 @@
 		5112A0E6251BC44C00CA355F /* Increment */ = {
 			isa = PBXGroup;
 			children = (
+				51227A3325230142006AFE9A /* ViewModel */,
 				5112A0E7251BC44C00CA355F /* AppDelegate.swift */,
 				5112A0E9251BC44C00CA355F /* SceneDelegate.swift */,
 				5112A0ED251BC44D00CA355F /* Assets.xcassets */,
@@ -116,6 +121,7 @@
 				5112A102251BCC8D00CA355F /* Extensions */,
 				5112A100251BCB0700CA355F /* PrimaryButtonStyle.swift */,
 				51387851251C90BC0026CD1B /* DropDownButton.swift */,
+				51227A3825230229006AFE9A /* DropDownButtonProtocol.swift */,
 			);
 			path = Commons;
 			sourceTree = "<group>";
@@ -146,6 +152,14 @@
 				51387854251C96670026CD1B /* DropDownButtonConstants.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		51227A3325230142006AFE9A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				51227A352523017B006AFE9A /* CreateNewExerciseViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		5138784A251C8DD40026CD1B /* Views */ = {
@@ -271,11 +285,13 @@
 				5112A101251BCB0700CA355F /* PrimaryButtonStyle.swift in Sources */,
 				5112A107251BCED100CA355F /* CommonsConstants.swift in Sources */,
 				5112A0EA251BC44C00CA355F /* SceneDelegate.swift in Sources */,
+				51227A362523017B006AFE9A /* CreateNewExerciseViewModel.swift in Sources */,
 				5112A0EC251BC44C00CA355F /* LandingView.swift in Sources */,
 				5112A0FC251BC6FD00CA355F /* LandingConstants.swift in Sources */,
 				5112A104251BCC9B00CA355F /* Color+Extension.swift in Sources */,
 				51387855251C96670026CD1B /* DropDownButtonConstants.swift in Sources */,
 				5138784E251C8E020026CD1B /* CreateNewExerciseView.swift in Sources */,
+				51227A3925230229006AFE9A /* DropDownButtonProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

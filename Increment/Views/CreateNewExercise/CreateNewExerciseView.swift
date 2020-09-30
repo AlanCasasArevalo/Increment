@@ -1,15 +1,21 @@
 
 import SwiftUI
 
+@available(iOS 14.0, *)
 struct CreateNewExerciseView: View {
+    @StateObject var viewModel = CreateNewExerciseViewModel()
     @State var isActive = false
+    
+    var dropdownList: some View {
+        ForEach(viewModel.dropdowns.indices, id: \.self) { index in
+            DropDownButton(viewModel: $viewModel.dropdowns[index])
+        }
+    }
+    
     var body: some View {
         ScrollView {
             VStack {
-                DropDownButton()
-                DropDownButton()
-                DropDownButton()
-                DropDownButton()
+                dropdownList
                 Spacer()
                 NavigationLink (
                     destination: RemindView(),
@@ -31,6 +37,10 @@ struct CreateNewExerciseView: View {
 
 struct CreateNewExerciseView_Previews: PreviewProvider {
     static var previews: some View {
-        CreateNewExerciseView()
+        if #available(iOS 14.0, *) {
+            CreateNewExerciseView()
+        } else {
+            // Fallback on earlier versions
+        }
     }
 }
